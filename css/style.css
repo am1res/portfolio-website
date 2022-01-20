@@ -886,10 +886,10 @@ body {
   text-decoration: underline;
 }
 .contacts_phone {
-  background: url(../phone-call.png) left no-repeat;
+  background: url(../icons/phone-call.png) left no-repeat;
 }
 .contacts_mail {
-  background: url(../gmail.png) left no-repeat;
+  background: url(../icons/gmail.png) left no-repeat;
 }
 
 
