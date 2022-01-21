@@ -148,14 +148,14 @@ body {
   background-color: #363636;
 }
 .menu__link{
-  
+
 }
 .menu_link {
   font-size: 20px;
   color: #616161;
   line-height: calc(15/10 * 100%);
   font-weight: 500;
-  transition: 0.5s linear;
+  transition: 0.3s linear;
 }
 .cv_link{
   color:#363636;
@@ -384,7 +384,7 @@ body {
   color:#616161;
   font-weight:600;
   line-height: 150%;
-  transition:0.5s linear;
+  transition:0.3s linear;
 }
 .mainBlock_button:not(:last-child){
   margin:0px 40px 0px 0px;
@@ -785,7 +785,15 @@ body {
   background-color:#f2f7fa;
   padding: 0px 160px;
   flex:0 1 50%;
-
+}
+.achieve_other{
+  transition: 0.2s linear;
+}
+.achieve_other:hover{
+  background-color:#000117;
+}
+.achieve_other:hover .achieve_result{
+  color:#f2f7fa;
 }
 .achieve_content{
   padding:25px 10px;
