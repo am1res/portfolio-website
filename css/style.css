@@ -147,6 +147,9 @@ body {
 .menu_itemCV:hover{
   background-color: #363636;
 }
+.menu__link{
+  
+}
 .menu_link {
   font-size: 20px;
   color: #616161;
