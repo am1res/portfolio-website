@@ -318,6 +318,13 @@ body._lock{
       margin:-68px 0px 0px 0px;
   }
  }
+   @media(max-width: 435px){
+    .page_boxes {
+      position: relative;
+      z-index:2;
+      margin:-65px 0px 0px 0px;
+  }
+}
 
 
 /* ---------MAIN CONTENT------------------------------------------------------------------- */
@@ -434,6 +441,23 @@ body._lock{
   flex-flow: wrap;
 }
 }
+@media(max-width: 400px){
+  .mainBlock_body2{
+    padding:150px 10px 13px 20px;
+    width:100%;
+    order:1;
+    display:flex;
+    justify-content: center;
+  }
+  .me{
+  width:260px;
+  height: 260px;
+}
+.mainBlock_container{
+  flex-flow: wrap;
+}
+}
+
 .mainBlock_title {
   font-size: 100px;
   line-height: 150%;
@@ -537,6 +561,12 @@ body._lock{
   .mainBlock_button {
   padding:10px 22px;
   font-size: 13px;
+  }
+}
+@media(max-width:400px){
+  .mainBlock_button {
+  padding:10px 18px;
+  font-size: 12px;
   }
 }
 
@@ -850,6 +880,18 @@ body._lock{
   font-size: 20px;
 }
 }
+@media(max-width: 400px){
+  .about_block{
+    padding: 100px 0px 100px 0px;
+  }
+  .about_text{
+  font-size: 45px;
+}
+.about_paragraph{
+  padding:25px;
+  font-size: 18px;
+}
+}
 
 /* ---------Achievki------------------------------------------------------------------- */
 .achievements_block {
@@ -1048,6 +1090,44 @@ body._lock{
   height:48px;
   }
 }
+@media(max-width: 400px){
+  .achieve_title{
+    font-size: 30px;
+  }
+  .achieve_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .achieve_piece {
+  margin:50px 0px 0px 0px;
+  flex:0 1 100%;
+  width:100%;
+  padding: 0px 80px;
+  }
+  .achieve_content{
+  padding:5px 7px;
+  text-align: center;
+  }
+  .achieve_logo {
+  width:120px;
+  height:60px;
+  }
+.achieve_result {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 40px;
+  }
+.achieve_img{
+  width:78px;
+  height:60px;
+  }
+.achieve_img1{
+  width:120px;
+  height:48px;
+  }
+}
 
 
 
@@ -1158,6 +1238,15 @@ body._lock{
 .footer_copyright {
   font-size: 24px;
   line-height: 172%;
+}
+@media(max-width: 400px){
+ .footer_copyright {
+  font-size: 20px;
+  line-height: 172%;
+}
+.social {
+  margin-top: 10px;
+}
 }
 .social {
   display: flex;
